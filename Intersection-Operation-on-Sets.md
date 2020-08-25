@@ -9,8 +9,8 @@ and
 ``` b[2, 5, 7, 11]```
 Then common element is 2
 
-C Program - Intersection of Array
- C program to find intersecting elements from 2 arrays.
+## C Program - Intersection of Array
+ ### C program to find intersecting elements from 2 arrays.
 ````
 #include <stdio.h>
 int main()
