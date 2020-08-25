@@ -3,11 +3,15 @@ write a program in c to create two sets and perform the intersection operation o
 
 A Set is a collection of well defined and distinct objects. Intersection of two sets A and B is defined as, all the elements of set A, which are also elements of set B. Union of two sets A and B is defined as, all the elements of A and B, but not belonged to both.
 
-Here your task is to ask user to enter any elements in a set of array and you have to extract the common elements among the set. For example lets us consider an array a[2, 4, 6, 8] and b[2, 5, 7, 11]. Then common element is 2
+Here your task is to ask user to enter any elements in a set of array and you have to extract the common elements among the set. For example lets us consider an array 
+```a[2, 4, 6, 8] ```
+and 
+``` b[2, 5, 7, 11]```
+Then common element is 2
 
 C Program - Intersection of Array
  C program to find intersecting elements from 2 arrays.
-
+````
 #include <stdio.h>
 int main()
 {
@@ -46,5 +50,6 @@ Enter array2 size : 3
 Enter array1 element : 1 2 3 4 5
 Enter array2 element : 1 2 6
 Intersection: 1, 2
+```
 Note:
 Here we have two arrays, we compare every individual elements of one array(b[]) to elements in another array(a[]), if any of the element matches we raise the flag = 1 and print that particular element. This process is repeated until it reaches the last element in an array(b[]).
